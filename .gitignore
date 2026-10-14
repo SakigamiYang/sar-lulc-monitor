@@ -1,0 +1,47 @@
+### Virtualenv ###
+.venv
+
+### JupyterNotebooks ###
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+### PyCharm ###
+# User-specific stuff
+.idea/
+
+### Python ###
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow
+__pypackages__/
+
+# pytype static type analyzer
+.pytype/
+
+# Log file
+*.log
+logs/*
+
+# operating system-related files
+# file properties cache/storage on macOS
+*.DS_Store
+# thumbnail cache on Windows
+Thumbs.db
+
+# data
+data/*
+!data/.gitkeep
+
+# model
+models/*
+!models/.gitkeep
+
+# outputs
+outputs/*
+!outputs/.gitkeep
+
+# env
+.env
