@@ -158,6 +158,7 @@ class DFCDataset(Dataset):
 def create_datasets(
         data_root: str | Path,
         val_fraction: float = 0.2,
+        train_transform=None,
         seed: int = 42,
 ) -> tuple[DFCDataset, DFCDataset, DFCDataset]:
     """Build train/val/test datasets from original DFC2020.
@@ -183,7 +184,7 @@ def create_datasets(
         seed=seed,
     )
 
-    train_dataset = DFCDataset(train_pairs)
+    train_dataset = DFCDataset(train_pairs, transform=train_transform)
     val_dataset = DFCDataset(val_pairs)
     test_dataset = DFCDataset(original_validation)
 
