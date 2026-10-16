@@ -8,11 +8,16 @@ authors = [
 ]
 requires-python = ">=3.12"
 dependencies = [
+    "earthengine-api>=1.7.48",
     "ipykernel>=7.4.0",
     "matplotlib>=3.11.2",
     "numpy>=2.5.4",
     "pandas>=3.0.6",
+    "plotly>=7.1.0",
+    "pyproj>=3.8.0",
     "rasterio>=1.5.2",
+    "requests>=2.34.2",
+    "streamlit>=1.66.0",
     "torch>=2.14.1",
 ]
 
