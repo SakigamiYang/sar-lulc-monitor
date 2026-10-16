@@ -1,6 +1,11 @@
+ee
 ipython
 matplotlib
 numpy
 pandas
+pyproj
 rasterio
+requests
+streamlit
 torch
+urllib3
