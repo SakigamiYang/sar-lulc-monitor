@@ -1,0 +1,9 @@
+class_name,first_pct,last_pct,change_pp
+Forest,0.0137,0.0000,-0.0137
+Shrubland,0.0000,0.0000,0.0000
+Grassland,0.0000,0.0000,0.0000
+Wetlands,0.0137,0.0000,-0.0137
+Croplands,0.0137,0.0107,-0.0031
+Urban/Built-up,95.5963,95.5826,-0.0137
+Barren,0.0183,0.0229,0.0046
+Water,4.3442,4.3839,0.0397
