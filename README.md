@@ -18,6 +18,25 @@ The end-to-end demo, including image downloads, has been tested successfully. Th
 - CPU-only inference in the interactive Streamlit demo; optional CUDA acceleration for training/evaluation.
 - Downloadable CSV summaries and local reuse of downloaded SAR images.
 
+## Dataset
+
+This project uses the **DFC2020 (2020 IEEE GRSS Data Fusion Contest)** dataset, which provides multi-source remote sensing imagery and land-cover reference labels. We use only the **Sentinel-1 SAR imagery (VV and VH polarizations)** and the corresponding DFC2020 reference labels. Sentinel-2 optical imagery and coarse land-cover labels are not used.
+
+**Dataset source:** [2020 IEEE GRSS Data Fusion Contest](https://ieee-dataport.org/competitions/2020-ieee-grss-data-fusion-contest)
+
+### Dataset Split
+
+To obtain more training samples, we intentionally reorganized the original dataset partitions:
+
+| Original DFC2020 Split | Usage in This Project | Samples |
+|---|---|---:|
+| Test | Training and internal validation (80% / 20%) | 5,128 |
+| Validation | Independent final testing | 986 |
+
+The original **test split** was used for training and internal validation because it contains substantially more samples. It was randomly divided using a fixed seed (`42`). The original **validation split** was reserved exclusively for final model evaluation.
+
+**Important:** These are project-specific dataset splits and do not follow the official DFC2020 evaluation protocol. Consequently, our results should not be directly compared with the official competition leaderboard.
+
 ## Project layout
 
 ```text
