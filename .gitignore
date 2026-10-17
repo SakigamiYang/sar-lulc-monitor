@@ -38,6 +38,7 @@ data/*
 # model
 models/*
 !models/.gitkeep
+!models/unet_full_best.pth
 
 # outputs
 outputs/*
