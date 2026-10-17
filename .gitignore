@@ -35,14 +35,5 @@ Thumbs.db
 data/*
 !data/.gitkeep
 
-# model
-models/*
-!models/.gitkeep
-!models/unet_full_best.pth
-
-# outputs
-outputs/*
-!outputs/.gitkeep
-
 # env
 .env

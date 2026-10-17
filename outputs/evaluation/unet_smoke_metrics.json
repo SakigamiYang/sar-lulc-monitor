@@ -1,0 +1,38 @@
+{
+  "model": "unet_smoke",
+  "checkpoint": "/Users/z.yang/playground/sar-lulc-monitor/models/unet_smoke_best.pth",
+  "evaluated_samples": 16,
+  "total_test_samples": 986,
+  "overall_accuracy": 0.17422771453857422,
+  "mean_iou": 0.03126374865403298,
+  "class_names": [
+    "Forest",
+    "Shrubland",
+    "Grassland",
+    "Wetlands",
+    "Croplands",
+    "Urban/Built-up",
+    "Barren",
+    "Water"
+  ],
+  "per_class_iou": [
+    0.24166431431518479,
+    0.0,
+    1.3582711924262799e-05,
+    0.008432092205154822,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "per_class_f1": [
+    0.38925869339889974,
+    0.0,
+    2.7165054873410843e-05,
+    0.016723173072995385,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ]
+}

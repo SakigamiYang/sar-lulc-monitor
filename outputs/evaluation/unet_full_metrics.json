@@ -1,0 +1,38 @@
+{
+  "model": "unet_full",
+  "checkpoint": "/home/jovyan/vault/zyang24/sar-lulc-monitor/models/unet_full_best.pth",
+  "evaluated_samples": 986,
+  "total_test_samples": 986,
+  "overall_accuracy": 0.5887888507959084,
+  "mean_iou": 0.3415876446299523,
+  "class_names": [
+    "Forest",
+    "Shrubland",
+    "Grassland",
+    "Wetlands",
+    "Croplands",
+    "Urban/Built-up",
+    "Barren",
+    "Water"
+  ],
+  "per_class_iou": [
+    0.5220728167755052,
+    0.12877786770539393,
+    0.004230537792328326,
+    0.0029467326551203014,
+    0.2895207798097714,
+    0.5949642825021735,
+    0.22111746361746362,
+    0.9690706761818623
+  ],
+  "per_class_f1": [
+    0.6860024185722084,
+    0.22817220533775454,
+    0.00842543147837073,
+    0.005876149867539543,
+    0.4490362378688945,
+    0.7460534245554339,
+    0.36215592718233786,
+    0.9842924257659905
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "run_name": "unet_smoke",
+  "model": "UNet",
+  "input_channels": 2,
+  "num_classes": 8,
+  "base_channels": 16,
+  "train_samples": 16,
+  "val_samples": 8,
+  "epochs_completed": 2,
+  "best_epoch": 2,
+  "best_val_miou": 0.023046125728992773,
+  "total_training_seconds": 4.726506875013001,
+  "configuration": {
+    "device": "cpu",
+    "train_samples": 16,
+    "val_samples": 8,
+    "epochs": 2,
+    "batch_size": 2,
+    "base_channels": 16,
+    "num_workers": 0,
+    "early_stopping_patience": 0,
+    "seed": 42,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "val_fraction": 0.2,
+    "num_classes": 8,
+    "ignore_index": 255,
+    "augmentation": true
+  }
+}

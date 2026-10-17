@@ -1,0 +1,30 @@
+{
+  "run_name": "unet_full",
+  "model": "UNet",
+  "input_channels": 2,
+  "num_classes": 8,
+  "base_channels": 32,
+  "train_samples": 4102,
+  "val_samples": 1026,
+  "epochs_completed": 50,
+  "best_epoch": 49,
+  "best_val_miou": 0.4935366633222879,
+  "total_training_seconds": 1306.823582504876,
+  "configuration": {
+    "device": "auto",
+    "train_samples": null,
+    "val_samples": null,
+    "epochs": 50,
+    "batch_size": 8,
+    "base_channels": 32,
+    "num_workers": 2,
+    "early_stopping_patience": 10,
+    "seed": 42,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "val_fraction": 0.2,
+    "num_classes": 8,
+    "ignore_index": 255,
+    "augmentation": true
+  }
+}
